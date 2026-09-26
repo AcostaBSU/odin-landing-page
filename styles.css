@@ -13,7 +13,8 @@ body > * {
 }
 
 .header,
-.main-card {
+.main-card,
+.footer {
   background-color: #1F2937;
 }
 
@@ -184,4 +185,12 @@ body > * {
   border-style: solid;
   border-radius: 8px;
   padding: 4px 24px 4px 24px;
+}
+
+.footer {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
