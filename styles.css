@@ -146,3 +146,42 @@ body > * {
   margin: 0px;
   margin-left: auto;
 }
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: #3882F6;
+  padding: 48px 84px 48px 84px;
+  border-radius: 12px;
+}
+
+.left-cta {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-cta h3,
+.left-cta p {
+  margin: 0px;
+}
+
+.left-cta h3 {
+  font-size: 24px;
+}
+
+.left-cta p {
+  color: #E1E1E1;
+}
+
+.right-cta button {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border-color: white;
+  background-color: #3882F6;
+  border-style: solid;
+  border-radius: 8px;
+  padding: 4px 24px 4px 24px;
+}
