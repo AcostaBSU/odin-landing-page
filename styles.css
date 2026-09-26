@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+body > * {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.header {
+  background-color: #1F2937;
+}
+
+.header {
+  display: flex;
+}
+
+.header img {
+  margin-right: auto;
+  height: 40px;
+  width: 80px;
+  align-self: center;
+}
+
+.header ul {
+  display: flex;
+  gap: 12px;
+  list-style-type: none;
+  padding: 0px;
+}
+
+.header ul a {
+  color: #E1E1E1;
+  text-decoration: none;
+}
