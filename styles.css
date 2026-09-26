@@ -125,3 +125,24 @@ body > * {
   color: dimgray;
   margin: 0px;
 }
+
+.quote-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #E5E7EB;
+  gap: 4px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0px;
+}
+
+.quote-card .author {
+  font-size: 24px;
+  margin: 0px;
+  margin-left: auto;
+}
